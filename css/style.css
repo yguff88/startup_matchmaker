@@ -53,7 +53,8 @@ Developer @GA in NYC
 
 header {
   background-color:#000;
-  padding: 5px 0 50px 0;
+  height:85px;
+  overflow:hidden;
 }
 
 header h1 a{
@@ -69,7 +70,6 @@ header h1 a{
 nav {
   float:right;
   margin-right:40px;
-  height:100px;
 }
 
 .nav1 {
@@ -88,16 +88,16 @@ nav a {
   margin-right:25px;
   margin-top:0px;
   text-decoration:none;
-  padding:5px 0px 25px 0px;
+  padding: 5px 0px 45px 0px;
 }
 
 a:hover {
   color:#fdf731;
 }
 
-a:active {
+.active {
   background-color:gray;
-  color:white;
+  padding: 5px 10px 45px 10px;
 }
 
 /* headline */
@@ -111,7 +111,6 @@ a:active {
   font-family:"Merriweather";
   font-weight:700;
   font-size:25px;
-  width:100%;
   text-align:center;
   font-style:italic;
   padding:20px 0px 20px 0px;
@@ -177,8 +176,9 @@ a:active {
 .aboutbox {
   float:left;
   height:300px;
-  width:28%;
-  margin-left:30px;
+  width:33%;
+  padding-left:45px;
+  padding-right:45px;
   margin-top:25px;
 }
 
@@ -192,6 +192,8 @@ a:active {
   font-family:"Source Sans Pro";
   font-weight:400;
   font-size:20px;
+  line-height:30px;
+  margin-bottom:30px;
 }
 
 .aboutbox .aboutboxbutton {
@@ -205,7 +207,7 @@ a:active {
   text-decoration: none;
   background-color:#c6c6c6;
   border-radius:5px;
-  padding: 7px 90px 7px 90px;
+  padding: 7px 70px 7px 70px;
   box-shadow: 1px 5px 1px 0px gray;
 } 
 
