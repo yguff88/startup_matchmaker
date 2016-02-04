@@ -182,7 +182,13 @@ a:hover {
   margin-top:25px;
 }
 
-.aboutbox h2{
+.specialbox {
+ border-left:1px solid #ddd;
+ height:250px;
+ border-right:1px solid #ddd
+}
+
+.aboutbox h2 {
   font-family:"Merriweather";
   font-weight:700;
   font-size:25px;
