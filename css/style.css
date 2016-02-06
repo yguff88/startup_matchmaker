@@ -88,7 +88,7 @@ nav a {
   margin-right:25px;
   margin-top:0px;
   text-decoration:none;
-  padding: 5px 0px 45px 0px;
+  padding: 5px 0px 25px 0px;
 }
 
 a:hover {
@@ -163,7 +163,7 @@ a:hover {
   text-decoration: none;
   background-color:#fdf731;
   border-radius:5px;
-  padding: 7px 90px 7px 90px;
+  padding: 7px 130px 7px 130px;
   box-shadow: 1px 3px 1px 0px gray;
 } 
 
