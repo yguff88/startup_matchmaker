@@ -57,9 +57,12 @@ header {
   overflow:hidden;
 }
 
+.logo {
+  float:left;
+}
+
 header h1 a{
   margin: 0 0 0 75px;
-  float:left;
   color:#fdf731;
   font-size:30px;
   font-family:"Merriweather";
@@ -88,7 +91,7 @@ nav a {
   margin-right:25px;
   margin-top:0px;
   text-decoration:none;
-  padding: 5px 0px 25px 0px;
+  padding: 25px 0px 25px 0px;
 }
 
 a:hover {
@@ -97,7 +100,7 @@ a:hover {
 
 .active {
   background-color:gray;
-  padding: 5px 10px 45px 10px;
+  padding: 25px 20px 40px 20px;
 }
 
 /* headline */
