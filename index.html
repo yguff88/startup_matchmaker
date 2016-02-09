@@ -41,7 +41,7 @@
 	<div class="aboutbox">
 		<h2>Create a Profile</h2>
 		<p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
-		<p class="aboutboxbutton"><a href="#">SIGN UP NOW</a></p>
+		<p class="aboutboxbutton" id="signup"><a href="#">SIGN UP NOW</a></p>
 	</div>
 
 	<div class="aboutbox specialbox">
@@ -60,5 +60,9 @@
 <footer>
 	<p>&copy; 2013 Startup Matchmaker. Made in NY.</p>
 </footer>
-
+<script type="text/javascript">
+document.getElementById('signup').onclick = function(){
+	window.alert('Not taking sign ups yet')
+}
+</script>
 </body>
