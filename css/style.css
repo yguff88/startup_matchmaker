@@ -132,7 +132,7 @@ a:hover {
 
 .matchbox {
   float:right;
-  max-width:450px;
+  width:35%;
   max-height:375px;
   padding: 35px 20px 25px 20px;
   margin-right:30px;
@@ -166,14 +166,16 @@ a:hover {
   text-decoration: none;
   background-color:#fdf731;
   border-radius:5px;
-  padding: 7px 130px 7px 130px;
+  padding: 7px 90px 7px 90px;
   box-shadow: 1px 3px 1px 0px gray;
 } 
 
 /* main body section */
 .mainbody {
   height:300px;
+  max-height:3000px;
   width:100%;
+  clear:both;
 }
 
 .aboutbox {
@@ -235,7 +237,127 @@ footer p {
   padding-left:25px;
 }
 
+@media only screen and (min-width:768px) and (max-width:1024px){
+nav {
+  display:none;
+}
+.headline h1 {
+      font-size: 1em;  
+   }
+  .matchbox {
+    width:50%;
+    overflow:hidden;
+  }
+  .matchbox p, .matchbox h2 {
+    font-size:1em;
+  }
+  .aboutbox h2, .aboutbox p {
+    font-size:1em;
+  }
 
+  .specialbox {
+    border:none;
+  }
+
+  .button {
+    font-size: .6em;
+
+  }
+  .button1 {
+     font-size: .6em; 
+  }
+  .matchbox a {
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .aboutbox a {
+    padding-left:25px;
+    padding-right:25px;
+  }
+  footer p {
+    font-size:.8em;
+  }
+  #hamburger  {
+    float:right;
+    width:50px;
+    margin-top:20px;
+    margin-right:40px;
+  }
+  #hamburger span {
+    float:right;
+    margin-top:5px;
+    margin-right:5px;
+    height:6px;
+    width:40px;
+    background-color:white;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  
+  nav {
+    display:none;
+  }
+  .headline h1 {
+      font-size: 1.3em;  
+   }
+  .matchbox {
+    width:90%;
+  }
+  .matchbox p, .matchbox h2 {
+    font-size:1.3em;
+  }
+  .aboutbox {
+    width:90%;
+    height:225px;
+    overflow:auto;
+    border-top:1px solid #ddd;;
+    border-bottom:1px solid #ddd;;
+  }
+  .aboutbox h2, .aboutbox p {
+    font-size:1.3em;
+  }
+  .mainbody {
+    height:850px;
+  }
+
+  .specialbox {
+    border:none;
+  }
+
+  .button {
+    font-size: .9em;
+
+  }
+  .button1 {
+     font-size: .9em; 
+  }
+  .matchbox a {
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .aboutbox a {
+    padding-left:25px;
+    padding-right:25px;
+  }
+  footer p {
+    font-size:.8em;
+  }
+  #hamburger  {
+    float:right;
+    width:50px;
+    margin-top:20px;
+    margin-right:40px;
+  }
+  #hamburger span {
+    float:right;
+    margin-top:5px;
+    margin-right:5px;
+    height:6px;
+    width:40px;
+    background-color:white;
+  }
+}
 
 
 
